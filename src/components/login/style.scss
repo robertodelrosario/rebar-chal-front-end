@@ -1,0 +1,91 @@
+.container-2{
+    margin-top: 10%;
+}
+.base-container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 370px;
+    width: 350px; 
+    border-radius: 5px;
+    background-color:rgba(250, 232, 209, 0.562);
+    box-shadow: 0px 0px 12px 0.8px #4e4f5096;
+    &:hover{
+        background-color: rgba(143, 145, 252, 0.11);
+        box-shadow: 0px 0px 12px 0.8px #0e81ce96;
+        transition: all 250ms ease-in-out;
+    }    
+    .header-2 {
+        margin-top: 20%;
+        font-size:  20px;
+        font-family:"Open Sans", sans-serif ;
+    }
+
+    .content-2{
+        display: flex;
+        flex-direction: column;
+
+        .form-2{
+            margin-top: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center ;
+            width: fit-content;
+
+            label {
+                for-size:20px;
+            }
+            input{
+                &:hover{
+                    background-color: rgb(143, 145, 252);
+                    box-shadow: 0px 0px 12px 0.8px #0e81ce96;
+                }
+                box-shadow: 0px 0px 12px 0.5px #20202096;
+                margin-top: 6px;
+                min-width: 18em;
+                height:  37px;
+                padding: 0px 10px;
+                font-size: 16px;
+                font-family: "Open Sans", sans-serif ;
+                background-color: #f3f3f3;
+                border: 0;
+                border-radius: 4px;
+                margin-bottom: 31px;
+                transition:  all 250ms ease-in-out;
+                &:focus{
+                    outline: none;
+                    box-shadow: 0px 0px 12px 0.8px #0e81ce96;
+                }
+            }
+        }
+    }
+
+    .error{
+        color: red;
+        font-size: 12px;
+    }
+    .footer-2 {
+        margin-top: 1em;
+        .btn{
+            margin-bottom: 15px;
+            font-size: 18px;
+            padding: 5px 20px;
+            border: 0;
+            background-color: rgb(18, 16, 128);
+            min-width: 10em;            
+            border-radius: 5px;
+            transition: all 250ms ease-in-out;
+            cursor: pointer;
+            color: white;
+            &:hover{
+                background-color: darkcyan;
+            }
+        }
+        .create-account{
+            text-align: center;
+            font-size: 12px;
+        }
+      }
+}
+
